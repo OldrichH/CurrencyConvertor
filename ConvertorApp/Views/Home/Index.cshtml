@@ -1,0 +1,24 @@
+﻿@model ConvertorApp.Data.SymbolsDto
+
+<div class="container">
+    <div class="row py-5 text-center">
+        <h1 calss="mb-2">Currency Convertor</h1>
+        <p>Pick a Currency you want to convert</p>
+        <p>Write amount you want to convert</p>
+        <p>Pick a second Currency you want to convert</p>
+    </div>
+    <div class="row justify-content-center text-center">
+        <div class="col-sm-4">
+            
+        </div>
+        <div class="col-sm-4">
+            ccc
+        </div>
+    </div>
+</div>
+
+
+@foreach(var item in @Model.Symbols)
+{
+    <p>item.Key</p>
+}
